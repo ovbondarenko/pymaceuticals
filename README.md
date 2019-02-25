@@ -1,12 +1,14 @@
 # Observed Trends
 
-Analysed results of treatments with three different drugs (Capomulin,  Infubinol and Ketaprin) and compared their performance with placebo.
-Metrics: Overall tumor volume change, number of new metastatic sites and survival rate
+Analysed results of treatments with three different drugs (Capomulin,  Infubinol and Ketaprin) and compared their performance to the placebo.
+Used three metrics to evaluate the drugs' performance: overall tumor volume change, number of new metastatic sites and the subjects' survival rate after 45 days of treatment.
 
-- First, let us consder the effect of the placebo, since we are going to compare performances of the three drugs to it. 45-day long placebo treatment resulted in ~50% tumor volume increase, 3 additional metastatic sites and suvival rate under 50%
-- Capomulin is the only effective drug, leading to the overall tumor shrinkage of ~19% by the end of the treatment, formation of 1.5 new metastatic sites and survival rate of ~ 84%
-- Two other drugs, Infubinol and Ketapin, perform similarly to the placibo in terms of tumor volume change (the error bars overlap).
-- Metastatic site formation: Capomulin - significantly better then placibo, Ketapril - same as placibo, Infubinol - fewer new sites than placibo, but more then Capomulin
-- Survival rate - Capomulin much better then placibo, Infubinol and Ketaprin - similar to placebo.
+**Placebo effect:** It is important to consider the effect of placibo treatment as a comparison benchmark for the real tratments. In our case, 45-day long placebo treatment resulted in ~50% tumor volume increase, 3 additional metastatic sites and suvival rate under 50%.
 
-In summary, Capomulin is the only one of the three drugs considered in the analysis, which has been demnstrated to be effective in tumor tratment, leading to almost 20% tumor volume reduction over the treatment duration of 45 days. Capomulin also strongly outperforms placebo Infubinol and Ketaprin treatments in terms survival rate. Capomulin treatment shows suppressed formation of new metastatic sites compared to the other two treatments and placebo.
+**Comparing Capomulin, Infubnol and Ketapin**
+- Capomulin is the only effective drug out of the three considered in this report. 45-day Capomulin treatment lead to the overall tumor shrinkage of ~19% by the end of the treatment, formation of 1.5 new metastatic sites and survival rate of ~ 84%
+- Infubinol and Ketapin perform similarly to the placibo in terms of tumor volume change by the end of the 45-day duration of the study. The difference between the placebo and Infubinol and Kapomulin is within the margin of error, judging from the overlaping error bars.
+- In terms of metastatic site formation Capomulin yielded significantly better results then placibo, since only 1.5 additional metastatic sites was formed under Capomulin treatment, compared to 3 in the case of Ketapril (same as placibo), and 2 in the case Infubinol.
+- Capomulin shows higher survival rate then placibo, Infubinol and Ketaprin, with the later two being similar to placebo.
+
+In conclusion, Capomulin is the only one of the three drugs under concideration, shown to be effective in tumor treatment, leading to almost 20% tumor volume reduction over the 45 days of treatment. Capomulin also strongly outperforms placebo Infubinol and Ketaprin treatments in terms survival rate. Capomulin treatment shows suppressed formation of new metastatic sites compared to the other two treatments and placebo, however it does not result in any statistically significant tumor shrinkage.
